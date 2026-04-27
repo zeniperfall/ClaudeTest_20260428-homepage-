@@ -106,17 +106,32 @@
   }
 
   ready(() => {
+    // Inject skip link as first body child if not present
+    if (!document.querySelector('.skip-link')) {
+      const skip = document.createElement('a');
+      skip.href = '#main';
+      skip.className = 'skip-link';
+      skip.textContent = '본문으로 건너뛰기';
+      document.body.insertBefore(skip, document.body.firstChild);
+    }
+
     const nav = document.querySelector('header[data-shell="nav"]');
     if (nav) {
       nav.classList.add('nav');
       nav.id = 'nav';
+      nav.setAttribute('role', 'banner');
       nav.innerHTML = navHtml;
     }
     const foot = document.querySelector('footer[data-shell="foot"]');
     if (foot) {
       foot.classList.add('foot');
+      foot.setAttribute('role', 'contentinfo');
       foot.innerHTML = footHtml;
     }
+
+    // Ensure <main> has id="main" for skip-link target
+    const main = document.querySelector('main');
+    if (main && !main.id) main.id = 'main';
 
     // Smooth in-page anchor scroll
     document.querySelectorAll('a[href^="#"]').forEach((a) => {
