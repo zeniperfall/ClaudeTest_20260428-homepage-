@@ -32,12 +32,14 @@
         <a href="${base}index.html#contact">문의하기</a>
       </nav>
       <div class="nav-icons">
-        <button class="icon-btn" aria-label="검색">
+        <button class="icon-btn search-toggle" aria-label="검색 (단축키 /)">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         </button>
-        <button class="icon-btn" aria-label="장바구니">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 7h12l-1.5 11a2 2 0 0 1-2 1.8h-5a2 2 0 0 1-2-1.8L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+        <button class="theme-toggle" type="button" aria-pressed="false" aria-label="다크 모드로 전환">
+          <span class="moon" aria-hidden="true">🌙</span>
+          <span class="sun" aria-hidden="true">☀️</span>
         </button>
+        <button class="lang-toggle" type="button" aria-label="영어로 전환">EN</button>
       </div>
     </div>
   `;
