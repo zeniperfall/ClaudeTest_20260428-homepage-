@@ -1,4 +1,5 @@
 :root {
+  color-scheme: light only;
   --c-bg: #ffffff;
   --c-text: #1d1d1f;
   --c-text-soft: #6e6e73;
@@ -26,6 +27,8 @@ html, body {
   background: var(--c-cream);
   color: var(--c-text);
   font-family: var(--font);
+  color-scheme: light only;
+  forced-color-adjust: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: -0.01em;
