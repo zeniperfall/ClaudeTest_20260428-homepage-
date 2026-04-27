@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NovaDx — 차세대 현장 진단 시스템</title>
+<meta name="description" content="NovaDx의 POC 진단 장비. 검사실 수준의 정확도를 환자 곁으로." />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+
+<!-- Global Nav -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo" aria-label="NovaDx">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+        <path d="M12 2 L22 12 L12 22 L2 12 Z M12 7 L17 12 L12 17 L7 12 Z"/>
+      </svg>
+      <span>NovaDx</span>
+    </a>
+    <nav class="nav-menu" aria-label="주 메뉴">
+      <a href="#products">제품</a>
+      <a href="#flagship">NovaDx Pro</a>
+      <a href="#hema">HemaScan</a>
+      <a href="#mole">MoleQ</a>
+      <a href="#tech">기술</a>
+      <a href="#support">지원</a>
+      <a href="#contact">문의하기</a>
+    </nav>
+    <div class="nav-icons">
+      <button class="icon-btn" aria-label="검색">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="장바구니">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M6 7h12l-1.5 11a2 2 0 0 1-2 1.8h-5a2 2 0 0 1-2-1.8L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- Announcement Bar -->
+<div class="announce">
+  <p>NovaDx Pro 새 모델이 출시되었습니다. <a href="#flagship">자세히 알아보기 ›</a></p>
+</div>
+
+<main>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-copy">
+      <h1>NovaDx Pro</h1>
+      <p class="tagline">검사실을 환자 곁으로.</p>
+      <p class="subline">차세대 통합 면역분석 POC 시스템.</p>
+      <div class="cta-row">
+        <a href="#flagship" class="link">더 알아보기 ›</a>
+        <a href="#contact" class="link">구매 문의 ›</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="device device-pro">
+        <div class="device-screen">
+          <div class="screen-bar"></div>
+          <div class="screen-graph">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="screen-readout">
+            <strong>4.2</strong><em>ng/mL</em>
+          </div>
+        </div>
+        <div class="device-body">
+          <div class="device-slot"></div>
+          <div class="device-led"></div>
+        </div>
+      </div>
+      <div class="hero-glow"></div>
+    </div>
+  </section>
+
+  <!-- Tile Grid Row 1 -->
+  <section class="tile-row" id="products">
+    <article class="tile tile-dark" id="hema">
+      <div class="tile-text">
+        <p class="eyebrow">신제품</p>
+        <h2>HemaScan One</h2>
+        <p class="lede">한 방울로, 23종 혈액 지표를.</p>
+        <div class="cta-row">
+          <a href="#" class="link link-blue">더 알아보기 ›</a>
+          <a href="#" class="link link-blue">구매하기 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device device-hema">
+          <div class="hema-screen"><div class="hema-pulse"></div></div>
+          <div class="hema-strip"></div>
+        </div>
+      </div>
+    </article>
+
+    <article class="tile tile-light" id="mole">
+      <div class="tile-text">
+        <p class="eyebrow">분자진단</p>
+        <h2>MoleQ Mini</h2>
+        <p class="lede">PCR 결과를 30분 만에.</p>
+        <div class="cta-row">
+          <a href="#" class="link link-blue">더 알아보기 ›</a>
+          <a href="#" class="link link-blue">구매하기 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device device-mole">
+          <div class="mole-cap"></div>
+          <div class="mole-body">
+            <div class="mole-window"></div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Flagship deep dive -->
+  <section class="feature" id="flagship">
+    <div class="feature-inner">
+      <p class="eyebrow center">NovaDx Pro</p>
+      <h2 class="display">정밀함의 새로운 기준.</h2>
+      <p class="display-sub">감염질환부터 심혈관, 호르몬, 종양표지자까지<br/>단 하나의 장비로.</p>
+
+      <div class="spec-grid">
+        <div class="spec">
+          <strong>CV &lt; 5%</strong>
+          <span>임상검사실 수준의 재현성</span>
+        </div>
+        <div class="spec">
+          <strong>12분</strong>
+          <span>검체 투입부터 결과까지</span>
+        </div>
+        <div class="spec">
+          <strong>120종+</strong>
+          <span>검사 메뉴, 지속 확장</span>
+        </div>
+        <div class="spec">
+          <strong>HL7 / FHIR</strong>
+          <span>병원 EMR과 즉시 연동</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tile Grid Row 2 -->
+  <section class="tile-row">
+    <article class="tile tile-graphite">
+      <div class="tile-text">
+        <p class="eyebrow">당뇨 케어</p>
+        <h2>GlucoCheck Plus</h2>
+        <p class="lede">연속 측정을 손바닥 안에.</p>
+        <div class="cta-row">
+          <a href="#" class="link link-blue">더 알아보기 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device device-gluco">
+          <div class="gluco-screen">
+            <div class="gluco-line"></div>
+            <strong>96 <em>mg/dL</em></strong>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="tile tile-mint">
+      <div class="tile-text">
+        <p class="eyebrow">호흡기 검사</p>
+        <h2>RespiQ</h2>
+        <p class="lede">독감 · COVID · RSV 동시 검출.</p>
+        <div class="cta-row">
+          <a href="#" class="link link-blue">더 알아보기 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device device-respi">
+          <div class="respi-cart"></div>
+          <div class="respi-base"></div>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Tech section -->
+  <section class="tech" id="tech">
+    <div class="tech-inner">
+      <p class="eyebrow center">기술</p>
+      <h2 class="display">검사실의 정확도, 환자 곁의 속도.</h2>
+
+      <div class="tech-grid">
+        <div class="tech-card">
+          <div class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l5 3"/></svg>
+          </div>
+          <h3>SmartFlow™ 미세유체</h3>
+          <p>독자 개발 마이크로채널이 검체를 자동으로 분배·정량합니다.</p>
+        </div>
+        <div class="tech-card">
+          <div class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h4l3-7 4 14 3-7h4"/></svg>
+          </div>
+          <h3>Aegis AI 진단 보정</h3>
+          <p>온디바이스 AI가 측정 노이즈를 실시간으로 보정합니다.</p>
+        </div>
+        <div class="tech-card">
+          <div class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="6" width="16" height="12" rx="2"/><path d="M8 6V4M16 6V4M4 11h16"/></svg>
+          </div>
+          <h3>MedLink Cloud</h3>
+          <p>HL7 / FHIR 표준으로 EMR · LIS와 즉시 연동됩니다.</p>
+        </div>
+        <div class="tech-card">
+          <div class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 4 6v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6l-8-4Z"/></svg>
+          </div>
+          <h3>이중 인증 보안</h3>
+          <p>검체 ID부터 결과 전송까지 종단간 암호화.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- For professionals -->
+  <section class="pro" id="support">
+    <div class="pro-inner">
+      <div class="pro-text">
+        <p class="eyebrow">의료 전문가를 위해</p>
+        <h2>NovaDx for Clinics.</h2>
+        <p>1차 의료기관부터 상급종합병원까지. 검사실 워크플로우와 EMR에 완벽하게 통합됩니다.</p>
+        <a href="#contact" class="btn-primary">상담 신청하기</a>
+      </div>
+      <ul class="pro-bullets">
+        <li><span>01</span> 전국 무상 설치 · 정도관리</li>
+        <li><span>02</span> 24/7 임상기술 지원</li>
+        <li><span>03</span> 시약 정기 자동 발주</li>
+        <li><span>04</span> 검사 데이터 통합 대시보드</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact / CTA -->
+  <section class="cta-band" id="contact">
+    <h2>현장 시연을 신청해 보세요.</h2>
+    <p>NovaDx 전문 컨설턴트가 직접 방문 시연을 도와드립니다.</p>
+    <a href="mailto:contact@novadx.kr" class="btn-primary btn-on-light">시연 신청 ›</a>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="foot">
+  <div class="foot-inner">
+    <p class="foot-note">
+      ※ 본 페이지에 게시된 제품 정보는 의료 전문가 대상 정보이며, 일부 제품은 국가별 인허가 상태가 다를 수 있습니다.
+      NovaDx Pro, HemaScan One, MoleQ Mini 등은 가상의 컨셉 제품으로 시연 목적의 데모 페이지입니다.
+    </p>
+
+    <div class="foot-grid">
+      <div>
+        <h4>제품</h4>
+        <ul>
+          <li><a href="#flagship">NovaDx Pro</a></li>
+          <li><a href="#hema">HemaScan One</a></li>
+          <li><a href="#mole">MoleQ Mini</a></li>
+          <li><a href="#">GlucoCheck Plus</a></li>
+          <li><a href="#">RespiQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>지원</h4>
+        <ul>
+          <li><a href="#">사용 설명서</a></li>
+          <li><a href="#">정도관리</a></li>
+          <li><a href="#">소프트웨어 업데이트</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>도입 안내</h4>
+        <ul>
+          <li><a href="#">의원 · 클리닉</a></li>
+          <li><a href="#">병원 · 종합병원</a></li>
+          <li><a href="#">검사센터</a></li>
+          <li><a href="#">해외 파트너</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>회사</h4>
+        <ul>
+          <li><a href="#">회사 소개</a></li>
+          <li><a href="#">뉴스룸</a></li>
+          <li><a href="#">채용</a></li>
+          <li><a href="#">투자정보</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <p>Copyright © 2026 NovaDx Korea. All rights reserved.</p>
+      <ul>
+        <li><a href="#">개인정보처리방침</a></li>
+        <li><a href="#">이용약관</a></li>
+        <li><a href="#">법적 고지</a></li>
+        <li><a href="#">사이트맵</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
