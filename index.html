@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>NovaDx — 차세대 현장 진단 시스템</title>
-<meta name="description" content="NovaDx의 POC 진단 장비. 검사실 수준의 정확도를 환자 곁으로." />
+<title>SD BIOSENSOR — POC 진단의 새로운 표준</title>
+<meta name="description" content="STANDARD M, F, Q, E, G — 검사실 수준의 정확도를 환자 곁으로." />
 <link rel="stylesheet" href="css/style.css" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,17 +15,18 @@
 <!-- Global Nav -->
 <header class="nav" id="nav">
   <div class="nav-inner">
-    <a href="#" class="nav-logo" aria-label="NovaDx">
+    <a href="#" class="nav-logo" aria-label="SD BIOSENSOR">
       <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
         <path d="M12 2 L22 12 L12 22 L2 12 Z M12 7 L17 12 L12 17 L7 12 Z"/>
       </svg>
-      <span>NovaDx</span>
+      <span>SD BIOSENSOR</span>
     </a>
     <nav class="nav-menu" aria-label="주 메뉴">
       <a href="#products">제품</a>
-      <a href="#flagship">NovaDx Pro</a>
-      <a href="#hema">HemaScan</a>
-      <a href="#mole">MoleQ</a>
+      <a href="#m10">STANDARD M</a>
+      <a href="#f2400">STANDARD F</a>
+      <a href="#q">STANDARD Q</a>
+      <a href="#g">STANDARD G</a>
       <a href="#tech">기술</a>
       <a href="#support">지원</a>
       <a href="#contact">문의하기</a>
@@ -43,7 +44,7 @@
 
 <!-- Announcement Bar -->
 <div class="announce">
-  <p>NovaDx Pro 새 모델이 출시되었습니다. <a href="#flagship">자세히 알아보기 ›</a></p>
+  <p>STANDARD M10, 차세대 분자진단 POC가 출시되었습니다. <a href="#m10">자세히 알아보기 ›</a></p>
 </div>
 
 <main>
@@ -51,29 +52,28 @@
   <!-- Hero -->
   <section class="hero" id="hero">
     <div class="hero-copy">
-      <h1>NovaDx Pro</h1>
+      <h1>STANDARD M10</h1>
       <p class="tagline">검사실을 환자 곁으로.</p>
-      <p class="subline">차세대 통합 면역분석 POC 시스템.</p>
+      <p class="subline">현장에서 30분 만에, 검사실 수준의 분자진단.</p>
       <div class="cta-row">
-        <a href="#flagship" class="link">더 알아보기 ›</a>
+        <a href="#m10" class="link">더 알아보기 ›</a>
         <a href="#contact" class="link">구매 문의 ›</a>
       </div>
     </div>
     <div class="hero-visual" aria-hidden="true">
-      <div class="device device-pro">
-        <div class="device-screen">
-          <div class="screen-bar"></div>
-          <div class="screen-graph">
+      <div class="device m10">
+        <div class="m10-screen">
+          <div class="m10-status"><span class="dot ok"></span><b>RUNNING</b></div>
+          <div class="m10-graph">
             <span></span><span></span><span></span><span></span><span></span><span></span>
           </div>
-          <div class="screen-readout">
-            <strong>4.2</strong><em>ng/mL</em>
-          </div>
+          <div class="m10-readout"><strong>Ct 24.8</strong><em>SARS-CoV-2 · Influenza A/B</em></div>
         </div>
-        <div class="device-body">
-          <div class="device-slot"></div>
-          <div class="device-led"></div>
+        <div class="m10-body">
+          <div class="m10-cartridge"></div>
+          <div class="m10-led"></div>
         </div>
+        <p class="device-label">STANDARD M10</p>
       </div>
       <div class="hero-glow"></div>
     </div>
@@ -81,68 +81,77 @@
 
   <!-- Tile Grid Row 1 -->
   <section class="tile-row" id="products">
-    <article class="tile tile-dark" id="hema">
+    <article class="tile tile-light" id="f2400">
       <div class="tile-text">
-        <p class="eyebrow">신제품</p>
-        <h2>HemaScan One</h2>
-        <p class="lede">한 방울로, 23종 혈액 지표를.</p>
+        <p class="eyebrow">신규 출시</p>
+        <h2>STANDARD F2400</h2>
+        <p class="lede">고처리량 형광 면역분석 시스템.</p>
         <div class="cta-row">
           <a href="#" class="link link-blue">더 알아보기 ›</a>
-          <a href="#" class="link link-blue">구매하기 ›</a>
+          <a href="#contact" class="link link-blue">구매 문의 ›</a>
         </div>
       </div>
       <div class="tile-visual">
-        <div class="device device-hema">
-          <div class="hema-screen"><div class="hema-pulse"></div></div>
-          <div class="hema-strip"></div>
+        <div class="device f2400">
+          <div class="f2400-screen">
+            <div class="f2400-bar"></div>
+            <div class="f2400-rows"><i></i><i></i><i></i></div>
+          </div>
+          <div class="f2400-body">
+            <div class="f2400-tray"></div>
+          </div>
+          <p class="device-label">STANDARD F2400</p>
         </div>
       </div>
     </article>
 
-    <article class="tile tile-light" id="mole">
+    <article class="tile tile-dark" id="m10">
       <div class="tile-text">
-        <p class="eyebrow">분자진단</p>
-        <h2>MoleQ Mini</h2>
-        <p class="lede">PCR 결과를 30분 만에.</p>
+        <p class="eyebrow">분자진단 · POC PCR</p>
+        <h2>STANDARD M10</h2>
+        <p class="lede">검체 투입에서 결과까지, 30분.</p>
         <div class="cta-row">
           <a href="#" class="link link-blue">더 알아보기 ›</a>
-          <a href="#" class="link link-blue">구매하기 ›</a>
+          <a href="#contact" class="link link-blue">구매 문의 ›</a>
         </div>
       </div>
       <div class="tile-visual">
-        <div class="device device-mole">
-          <div class="mole-cap"></div>
-          <div class="mole-body">
-            <div class="mole-window"></div>
+        <div class="device m10 m10-tile">
+          <div class="m10-screen">
+            <div class="m10-status"><span class="dot ok"></span><b>POSITIVE</b></div>
+            <div class="m10-graph"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            <div class="m10-readout"><strong>Ct 22.4</strong><em>RSV</em></div>
           </div>
+          <div class="m10-body"><div class="m10-cartridge"></div><div class="m10-led"></div></div>
+          <p class="device-label">STANDARD M10</p>
         </div>
       </div>
     </article>
   </section>
 
   <!-- Flagship deep dive -->
-  <section class="feature" id="flagship">
+  <section class="feature" id="m10-deep">
     <div class="feature-inner">
-      <p class="eyebrow center">NovaDx Pro</p>
-      <h2 class="display">정밀함의 새로운 기준.</h2>
-      <p class="display-sub">감염질환부터 심혈관, 호르몬, 종양표지자까지<br/>단 하나의 장비로.</p>
+      <p class="eyebrow center">STANDARD M10</p>
+      <h2 class="display">Point-of-Care 분자진단의 새로운 기준.</h2>
+      <p class="display-sub">자동 핵산 추출 · 실시간 PCR · 결과 분석을<br/>단 하나의 카트리지로.</p>
 
       <div class="spec-grid">
         <div class="spec">
-          <strong>CV &lt; 5%</strong>
-          <span>임상검사실 수준의 재현성</span>
-        </div>
-        <div class="spec">
-          <strong>12분</strong>
+          <strong>30분</strong>
           <span>검체 투입부터 결과까지</span>
         </div>
         <div class="spec">
-          <strong>120종+</strong>
-          <span>검사 메뉴, 지속 확장</span>
+          <strong>4 채널</strong>
+          <span>실시간 다중 형광 검출</span>
         </div>
         <div class="spec">
-          <strong>HL7 / FHIR</strong>
-          <span>병원 EMR과 즉시 연동</span>
+          <strong>All-in-One</strong>
+          <span>추출 · 증폭 · 분석 통합 카트리지</span>
+        </div>
+        <div class="spec">
+          <strong>HL7 / LIS</strong>
+          <span>병원 정보시스템 즉시 연동</span>
         </div>
       </div>
     </div>
@@ -150,38 +159,91 @@
 
   <!-- Tile Grid Row 2 -->
   <section class="tile-row">
-    <article class="tile tile-graphite">
+    <article class="tile tile-graphite" id="f200">
       <div class="tile-text">
-        <p class="eyebrow">당뇨 케어</p>
-        <h2>GlucoCheck Plus</h2>
-        <p class="lede">연속 측정을 손바닥 안에.</p>
+        <p class="eyebrow">형광 면역분석</p>
+        <h2>STANDARD F200</h2>
+        <p class="lede">컴팩트 데스크탑, 풀스펙 진단.</p>
         <div class="cta-row">
           <a href="#" class="link link-blue">더 알아보기 ›</a>
         </div>
       </div>
       <div class="tile-visual">
-        <div class="device device-gluco">
-          <div class="gluco-screen">
-            <div class="gluco-line"></div>
-            <strong>96 <em>mg/dL</em></strong>
+        <div class="device f200">
+          <div class="f200-screen"><b>READY</b></div>
+          <div class="f200-body">
+            <div class="f200-slot"></div>
           </div>
+          <p class="device-label">STANDARD F200</p>
         </div>
       </div>
     </article>
 
-    <article class="tile tile-mint">
+    <article class="tile tile-mint" id="q">
       <div class="tile-text">
-        <p class="eyebrow">호흡기 검사</p>
-        <h2>RespiQ</h2>
-        <p class="lede">독감 · COVID · RSV 동시 검출.</p>
+        <p class="eyebrow">신속 면역진단</p>
+        <h2>STANDARD Q</h2>
+        <p class="lede">15분 신속진단, 1,000만 회 검증.</p>
         <div class="cta-row">
           <a href="#" class="link link-blue">더 알아보기 ›</a>
         </div>
       </div>
       <div class="tile-visual">
-        <div class="device device-respi">
-          <div class="respi-cart"></div>
-          <div class="respi-base"></div>
+        <div class="device q-kit">
+          <div class="q-cassette">
+            <div class="q-window">
+              <span class="q-line c">C</span>
+              <span class="q-line t">T</span>
+            </div>
+            <div class="q-port"></div>
+          </div>
+          <p class="device-label">STANDARD Q · COVID-19 Ag</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Tile Grid Row 3 -->
+  <section class="tile-row">
+    <article class="tile tile-cream" id="g">
+      <div class="tile-text">
+        <p class="eyebrow">자가혈당측정 BGMS</p>
+        <h2>STANDARD G</h2>
+        <p class="lede">매일의 혈당, 손바닥 위에서.</p>
+        <div class="cta-row">
+          <a href="#" class="link link-blue">더 알아보기 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device g-meter">
+          <div class="g-screen">
+            <strong>112</strong><em>mg/dL</em>
+            <small>식후 2시간</small>
+          </div>
+          <div class="g-strip"></div>
+          <p class="device-label">STANDARD G · GlucoNavii</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="tile tile-dark" id="e">
+      <div class="tile-text">
+        <p class="eyebrow">ELISA</p>
+        <h2>STANDARD E</h2>
+        <p class="lede">대량 검사를 위한 효소면역측정.</p>
+        <div class="cta-row">
+          <a href="#" class="link link-blue">더 알아보기 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device e-plate">
+          <div class="e-grid">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <p class="device-label">STANDARD E · 96-well</p>
         </div>
       </div>
     </article>
@@ -196,31 +258,31 @@
       <div class="tech-grid">
         <div class="tech-card">
           <div class="tech-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l5 3"/></svg>
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 3v8a7 7 0 0 0 14 0V3"/><path d="M3 21h18"/></svg>
           </div>
-          <h3>SmartFlow™ 미세유체</h3>
-          <p>독자 개발 마이크로채널이 검체를 자동으로 분배·정량합니다.</p>
+          <h3>All-in-One 카트리지</h3>
+          <p>핵산 추출부터 증폭·검출까지 하나의 카트리지에서 자동으로 진행됩니다.</p>
         </div>
         <div class="tech-card">
           <div class="tech-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 12h4l3-7 4 14 3-7h4"/></svg>
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l5 3"/></svg>
           </div>
-          <h3>Aegis AI 진단 보정</h3>
-          <p>온디바이스 AI가 측정 노이즈를 실시간으로 보정합니다.</p>
+          <h3>유로피움 형광 검출</h3>
+          <p>큰 Stoke's shift의 유로피움 기반 형광 화학으로 고감도 정량 분석을 구현합니다.</p>
+        </div>
+        <div class="tech-card">
+          <div class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7 4v14M17 4v14M3 11h18"/></svg>
+          </div>
+          <h3>2D 바코드 무코딩</h3>
+          <p>스트립 인식·로트·유효기간을 자동으로 인식해 별도 코딩 작업이 필요 없습니다.</p>
         </div>
         <div class="tech-card">
           <div class="tech-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="6" width="16" height="12" rx="2"/><path d="M8 6V4M16 6V4M4 11h16"/></svg>
           </div>
-          <h3>MedLink Cloud</h3>
-          <p>HL7 / FHIR 표준으로 EMR · LIS와 즉시 연동됩니다.</p>
-        </div>
-        <div class="tech-card">
-          <div class="tech-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2 4 6v6c0 5 3.5 8.5 8 10 4.5-1.5 8-5 8-10V6l-8-4Z"/></svg>
-          </div>
-          <h3>이중 인증 보안</h3>
-          <p>검체 ID부터 결과 전송까지 종단간 암호화.</p>
+          <h3>HL7 · LIS / HIS 연동</h3>
+          <p>병원 EMR · 검사 정보시스템과 표준 프로토콜로 즉시 연동됩니다.</p>
         </div>
       </div>
     </div>
@@ -231,14 +293,14 @@
     <div class="pro-inner">
       <div class="pro-text">
         <p class="eyebrow">의료 전문가를 위해</p>
-        <h2>NovaDx for Clinics.</h2>
-        <p>1차 의료기관부터 상급종합병원까지. 검사실 워크플로우와 EMR에 완벽하게 통합됩니다.</p>
+        <h2>STANDARD for Clinics.</h2>
+        <p>1차 의료기관부터 상급종합병원, 검사센터까지. 검사실 워크플로우와 EMR에 완벽하게 통합되는 SD BIOSENSOR의 진단 플랫폼.</p>
         <a href="#contact" class="btn-primary">상담 신청하기</a>
       </div>
       <ul class="pro-bullets">
         <li><span>01</span> 전국 무상 설치 · 정도관리</li>
         <li><span>02</span> 24/7 임상기술 지원</li>
-        <li><span>03</span> 시약 정기 자동 발주</li>
+        <li><span>03</span> 시약 · 카트리지 정기 자동 발주</li>
         <li><span>04</span> 검사 데이터 통합 대시보드</li>
       </ul>
     </div>
@@ -247,8 +309,8 @@
   <!-- Contact / CTA -->
   <section class="cta-band" id="contact">
     <h2>현장 시연을 신청해 보세요.</h2>
-    <p>NovaDx 전문 컨설턴트가 직접 방문 시연을 도와드립니다.</p>
-    <a href="mailto:contact@novadx.kr" class="btn-primary btn-on-light">시연 신청 ›</a>
+    <p>SD BIOSENSOR 전문 컨설턴트가 직접 방문 시연을 도와드립니다.</p>
+    <a href="mailto:contact@sdbiosensor.com" class="btn-primary btn-on-light">시연 신청 ›</a>
   </section>
 
 </main>
@@ -258,18 +320,19 @@
   <div class="foot-inner">
     <p class="foot-note">
       ※ 본 페이지에 게시된 제품 정보는 의료 전문가 대상 정보이며, 일부 제품은 국가별 인허가 상태가 다를 수 있습니다.
-      NovaDx Pro, HemaScan One, MoleQ Mini 등은 가상의 컨셉 제품으로 시연 목적의 데모 페이지입니다.
+      본 페이지는 SD BIOSENSOR의 공개된 제품 라인업(STANDARD M / F / Q / E / G)을 기반으로 제작된 디자인 컨셉 데모 페이지입니다.
     </p>
 
     <div class="foot-grid">
       <div>
         <h4>제품</h4>
         <ul>
-          <li><a href="#flagship">NovaDx Pro</a></li>
-          <li><a href="#hema">HemaScan One</a></li>
-          <li><a href="#mole">MoleQ Mini</a></li>
-          <li><a href="#">GlucoCheck Plus</a></li>
-          <li><a href="#">RespiQ</a></li>
+          <li><a href="#m10">STANDARD M10</a></li>
+          <li><a href="#f2400">STANDARD F2400</a></li>
+          <li><a href="#f200">STANDARD F200</a></li>
+          <li><a href="#q">STANDARD Q</a></li>
+          <li><a href="#g">STANDARD G</a></li>
+          <li><a href="#e">STANDARD E</a></li>
         </ul>
       </div>
       <div>
@@ -302,7 +365,7 @@
     </div>
 
     <div class="foot-bottom">
-      <p>Copyright © 2026 NovaDx Korea. All rights reserved.</p>
+      <p>Copyright © 2026 SD BIOSENSOR Korea. All rights reserved.</p>
       <ul>
         <li><a href="#">개인정보처리방침</a></li>
         <li><a href="#">이용약관</a></li>
