@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>
+  (function(){try{var t=localStorage.getItem('sd-theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();
+</script>
+<meta name="color-scheme" content="light only" />
+<meta name="theme-color" content="#f5f5f7" />
+<title>SD BIOSENSOR — POC 진단의 새로운 표준</title>
+<meta name="description" content="STANDARD M, F, Q, E, G — 검사실 수준의 정확도를 환자 곁으로." />
+<link rel="canonical" href="https://sdbiosensor.kr/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="SD BIOSENSOR" />
+<meta property="og:locale" content="ko_KR" />
+<meta property="og:url" content="https://sdbiosensor.kr/" />
+<meta property="og:title" content="SD BIOSENSOR — POC 진단의 새로운 표준" />
+<meta property="og:description" content="STANDARD M, F, Q, E, G — 검사실 수준의 정확도를 환자 곁으로." />
+<meta property="og:image" content="https://sdbiosensor.kr/og-image.svg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="SD BIOSENSOR — POC 진단의 새로운 표준" />
+<meta name="twitter:description" content="STANDARD M, F, Q, E, G — 검사실 수준의 정확도를 환자 곁으로." />
+<meta name="twitter:image" content="https://sdbiosensor.kr/og-image.svg" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="stylesheet" href="css/style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap">
+
+<!-- JSON-LD: Organization + WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://sdbiosensor.kr/#organization",
+      "name": "SD BIOSENSOR",
+      "alternateName": "SD 바이오센서",
+      "url": "https://sdbiosensor.kr/",
+      "logo": "https://sdbiosensor.kr/favicon.svg",
+      "image": "https://sdbiosensor.kr/og-image.svg",
+      "description": "SD BIOSENSOR는 신속진단 · 면역진단 · 분자진단 · 자가혈당측정의 4대 사업 영역을 중심으로 글로벌 체외진단 시장에서 활동하는 기업입니다.",
+      "foundingDate": "1999",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "덕영대로 1556번길 16",
+        "addressLocality": "수원시 영통구",
+        "addressRegion": "경기도",
+        "postalCode": "16690",
+        "addressCountry": "KR"
+      },
+      "sameAs": [
+        "https://www.sdbiosensor.com/",
+        "https://finance.yahoo.com/quote/137310.KS/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sdbiosensor.kr/#website",
+      "url": "https://sdbiosensor.kr/",
+      "name": "SD BIOSENSOR",
+      "publisher": { "@id": "https://sdbiosensor.kr/#organization" },
+      "inLanguage": "ko-KR"
+    },
+    {
+      "@type": "Product",
+      "name": "STANDARD M10",
+      "description": "검체 투입에서 결과까지 30분 만에 검사실 수준의 PCR 결과를 제공하는 차세대 POC 분자진단 시스템.",
+      "brand": { "@id": "https://sdbiosensor.kr/#organization" },
+      "category": "Point-of-Care Molecular Diagnostics",
+      "url": "https://sdbiosensor.kr/product/m10.html"
+    },
+    {
+      "@type": "Product",
+      "name": "STANDARD F2400",
+      "description": "유로피움 형광 화학과 자동 검체 처리로 검사실 수준의 정밀도를 24개 검체까지 동시에 분석하는 고처리량 면역분석 시스템.",
+      "brand": { "@id": "https://sdbiosensor.kr/#organization" },
+      "category": "Fluorescent Immunoassay Analyzer",
+      "url": "https://sdbiosensor.kr/product/f2400.html"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<a href="#main" class="skip-link">본문으로 건너뛰기</a>
+
+<!-- Global Nav -->
+<header class="nav" id="nav" role="banner">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo" aria-label="SD BIOSENSOR">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+        <path d="M12 2 L22 12 L12 22 L2 12 Z M12 7 L17 12 L12 17 L7 12 Z"/>
+      </svg>
+      <span>SD BIOSENSOR</span>
+    </a>
+    <nav class="nav-menu" aria-label="주 메뉴">
+      <a href="#products">제품</a>
+      <a href="product/m10.html">STANDARD M</a>
+      <a href="product/f2400.html">STANDARD F</a>
+      <a href="product/q.html">STANDARD Q</a>
+      <a href="product/g.html">STANDARD G</a>
+      <a href="#compare">비교</a>
+      <a href="#tech">기술</a>
+      <a href="support.html">지원</a>
+      <a href="#contact">문의하기</a>
+    </nav>
+    <div class="nav-icons">
+      <button class="icon-btn search-toggle" aria-label="검색 (단축키 /)">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </button>
+      <button class="theme-toggle" type="button" aria-pressed="false" aria-label="다크 모드로 전환">
+        <span class="moon" aria-hidden="true">🌙</span>
+        <span class="sun" aria-hidden="true">☀️</span>
+      </button>
+      <button class="lang-toggle" type="button" aria-label="영어로 전환">EN</button>
+    </div>
+  </div>
+</header>
+
+<!-- Announcement Bar -->
+<div class="announce">
+  <p>STANDARD M10, 차세대 분자진단 POC가 출시되었습니다. <a href="#m10">자세히 알아보기 ›</a></p>
+</div>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-copy">
+      <h1>STANDARD M10</h1>
+      <p class="tagline">검사실을 환자 곁으로.</p>
+      <p class="subline">현장에서 30분 만에, 검사실 수준의 분자진단.</p>
+      <div class="cta-row">
+        <a href="#m10" class="link">더 알아보기 ›</a>
+        <a href="#contact" class="link">구매 문의 ›</a>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="device m10">
+        <div class="m10-screen">
+          <div class="m10-status"><span class="dot ok"></span><b>RUNNING</b></div>
+          <div class="m10-graph">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="m10-readout"><strong>Ct 24.8</strong><em>SARS-CoV-2 · Influenza A/B</em></div>
+        </div>
+        <div class="m10-body">
+          <div class="m10-cartridge"></div>
+          <div class="m10-led"></div>
+        </div>
+        <p class="device-label">STANDARD M10</p>
+      </div>
+      <div class="hero-glow"></div>
+    </div>
+  </section>
+
+  <!-- Tile Grid Row 1 -->
+  <section class="tile-row" id="products">
+    <article class="tile tile-light" id="f2400">
+      <div class="tile-text">
+        <p class="eyebrow">신규 출시</p>
+        <h2>STANDARD F2400</h2>
+        <p class="lede">고처리량 형광 면역분석 시스템.</p>
+        <div class="cta-row">
+          <a href="product/f2400.html" class="link link-blue">더 알아보기 ›</a>
+          <a href="#contact" class="link link-blue">구매 문의 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device f2400">
+          <div class="f2400-screen">
+            <div class="f2400-bar"></div>
+            <div class="f2400-rows"><i></i><i></i><i></i></div>
+          </div>
+          <div class="f2400-body">
+            <div class="f2400-tray"></div>
+          </div>
+          <p class="device-label">STANDARD F2400</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="tile tile-dark" id="m10">
+      <div class="tile-text">
+        <p class="eyebrow">분자진단 · POC PCR</p>
+        <h2>STANDARD M10</h2>
+        <p class="lede">검체 투입에서 결과까지, 30분.</p>
+        <div class="cta-row">
+          <a href="product/m10.html" class="link link-blue">더 알아보기 ›</a>
+          <a href="#contact" class="link link-blue">구매 문의 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device m10 m10-tile">
+          <div class="m10-screen">
+            <div class="m10-status"><span class="dot ok"></span><b>POSITIVE</b></div>
+            <div class="m10-graph"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            <div class="m10-readout"><strong>Ct 22.4</strong><em>RSV</em></div>
+          </div>
+          <div class="m10-body"><div class="m10-cartridge"></div><div class="m10-led"></div></div>
+          <p class="device-label">STANDARD M10</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Flagship deep dive -->
+  <section class="feature" id="m10-deep">
+    <div class="feature-inner">
+      <p class="eyebrow center">STANDARD M10</p>
+      <h2 class="display">Point-of-Care 분자진단의 새로운 기준.</h2>
+      <p class="display-sub">자동 핵산 추출 · 실시간 PCR · 결과 분석을<br/>단 하나의 카트리지로.</p>
+
+      <div class="spec-grid">
+        <div class="spec">
+          <strong>30분</strong>
+          <span>검체 투입부터 결과까지</span>
+        </div>
+        <div class="spec">
+          <strong>4 채널</strong>
+          <span>실시간 다중 형광 검출</span>
+        </div>
+        <div class="spec">
+          <strong>All-in-One</strong>
+          <span>추출 · 증폭 · 분석 통합 카트리지</span>
+        </div>
+        <div class="spec">
+          <strong>HL7 / LIS</strong>
+          <span>병원 정보시스템 즉시 연동</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tile Grid Row 2 -->
+  <section class="tile-row">
+    <article class="tile tile-graphite" id="f200">
+      <div class="tile-text">
+        <p class="eyebrow">형광 면역분석</p>
+        <h2>STANDARD F200</h2>
+        <p class="lede">컴팩트 데스크탑, 풀스펙 진단.</p>
+        <div class="cta-row">
+          <a href="product/f200.html" class="link link-blue">더 알아보기 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device f200">
+          <div class="f200-screen"><b>READY</b></div>
+          <div class="f200-body">
+            <div class="f200-slot"></div>
+          </div>
+          <p class="device-label">STANDARD F200</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="tile tile-mint" id="q">
+      <div class="tile-text">
+        <p class="eyebrow">신속 면역진단</p>
+        <h2>STANDARD Q</h2>
+        <p class="lede">15분 신속진단, 1,000만 회 검증.</p>
+        <div class="cta-row">
+          <a href="product/q.html" class="link link-blue">더 알아보기 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device q-kit">
+          <div class="q-cassette">
+            <div class="q-window">
+              <span class="q-line c">C</span>
+              <span class="q-line t">T</span>
+            </div>
+            <div class="q-port"></div>
+          </div>
+          <p class="device-label">STANDARD Q · COVID-19 Ag</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Tile Grid Row 3 -->
+  <section class="tile-row">
+    <article class="tile tile-cream" id="g">
+      <div class="tile-text">
+        <p class="eyebrow">자가혈당측정 BGMS</p>
+        <h2>STANDARD G</h2>
+        <p class="lede">매일의 혈당, 손바닥 위에서.</p>
+        <div class="cta-row">
+          <a href="product/g.html" class="link link-blue">더 알아보기 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device g-meter">
+          <div class="g-screen">
+            <strong>112</strong><em>mg/dL</em>
+            <small>식후 2시간</small>
+          </div>
+          <div class="g-strip"></div>
+          <p class="device-label">STANDARD G · GlucoNavii</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="tile tile-dark" id="e">
+      <div class="tile-text">
+        <p class="eyebrow">ELISA</p>
+        <h2>STANDARD E</h2>
+        <p class="lede">대량 검사를 위한 효소면역측정.</p>
+        <div class="cta-row">
+          <a href="product/e.html" class="link link-blue">더 알아보기 ›</a>
+        </div>
+      </div>
+      <div class="tile-visual">
+        <div class="device e-plate">
+          <div class="e-grid">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <p class="device-label">STANDARD E · 96-well</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- Compare section -->
+  <section class="compare" id="compare">
+    <div class="compare-inner">
+      <p class="eyebrow center">제품 비교</p>
+      <h2 class="display">어떤 STANDARD가 적합할까요?</h2>
+      <p class="display-sub">검사 환경과 처리량에 맞춰 최적의 모델을 선택하세요.</p>
+
+      <div class="compare-scroll">
+        <div class="compare-row">
+
+          <article class="compare-card">
+            <div class="compare-vis vis-m">
+              <div class="cmini m">
+                <div class="cmini-screen"></div>
+                <div class="cmini-base"></div>
+              </div>
+            </div>
+            <p class="compare-eyebrow">신규</p>
+            <h3>STANDARD M10</h3>
+            <p class="compare-tag">분자진단 · POC PCR</p>
+            <ul class="compare-spec">
+              <li><b>검사 시간</b><span>30분</span></li>
+              <li><b>처리량</b><span>1 검체 / Run</span></li>
+              <li><b>적합 환경</b><span>의원 · 응급실</span></li>
+              <li><b>대표 메뉴</b><span>호흡기 · STI · HPV</span></li>
+            </ul>
+            <a href="product/m10.html" class="link link-blue">자세히 ›</a>
+          </article>
+
+          <article class="compare-card">
+            <div class="compare-vis vis-f">
+              <div class="cmini f">
+                <div class="cmini-screen"></div>
+                <div class="cmini-base wide"></div>
+              </div>
+            </div>
+            <p class="compare-eyebrow">고처리량</p>
+            <h3>STANDARD F2400</h3>
+            <p class="compare-tag">형광 면역분석</p>
+            <ul class="compare-spec">
+              <li><b>검사 시간</b><span>3 ~ 15분</span></li>
+              <li><b>처리량</b><span>최대 24 검체 / Run</span></li>
+              <li><b>적합 환경</b><span>병원 · 검사센터</span></li>
+              <li><b>대표 메뉴</b><span>심혈관 · 호르몬 · 종양</span></li>
+            </ul>
+            <a href="product/f2400.html" class="link link-blue">자세히 ›</a>
+          </article>
+
+          <article class="compare-card">
+            <div class="compare-vis vis-f">
+              <div class="cmini f">
+                <div class="cmini-screen sm"></div>
+                <div class="cmini-base"></div>
+              </div>
+            </div>
+            <p class="compare-eyebrow">컴팩트</p>
+            <h3>STANDARD F200</h3>
+            <p class="compare-tag">형광 면역분석 · 데스크탑</p>
+            <ul class="compare-spec">
+              <li><b>검사 시간</b><span>3 ~ 15분</span></li>
+              <li><b>처리량</b><span>1 검체 / Run</span></li>
+              <li><b>적합 환경</b><span>의원 · 검진센터</span></li>
+              <li><b>대표 메뉴</b><span>심혈관 · 갑상선 · 염증</span></li>
+            </ul>
+            <a href="product/f200.html" class="link link-blue">자세히 ›</a>
+          </article>
+
+          <article class="compare-card">
+            <div class="compare-vis vis-q">
+              <div class="cmini q">
+                <div class="cmini-cassette">
+                  <span></span><span></span>
+                </div>
+              </div>
+            </div>
+            <p class="compare-eyebrow">신속진단</p>
+            <h3>STANDARD Q</h3>
+            <p class="compare-tag">신속 면역크로마토</p>
+            <ul class="compare-spec">
+              <li><b>검사 시간</b><span>15분</span></li>
+              <li><b>처리량</b><span>육안 또는 리더기</span></li>
+              <li><b>적합 환경</b><span>현장 · 자가검사</span></li>
+              <li><b>대표 메뉴</b><span>COVID · Flu · RSV · 말라리아</span></li>
+            </ul>
+            <a href="product/q.html" class="link link-blue">자세히 ›</a>
+          </article>
+
+          <article class="compare-card">
+            <div class="compare-vis vis-g">
+              <div class="cmini g">
+                <div class="cmini-meter"></div>
+              </div>
+            </div>
+            <p class="compare-eyebrow">홈케어</p>
+            <h3>STANDARD G</h3>
+            <p class="compare-tag">자가혈당측정 BGMS</p>
+            <ul class="compare-spec">
+              <li><b>검사 시간</b><span>5초</span></li>
+              <li><b>처리량</b><span>1회 / 측정</span></li>
+              <li><b>적합 환경</b><span>가정 · 약국</span></li>
+              <li><b>대표 메뉴</b><span>혈당</span></li>
+            </ul>
+            <a href="product/g.html" class="link link-blue">자세히 ›</a>
+          </article>
+
+          <article class="compare-card">
+            <div class="compare-vis vis-e">
+              <div class="cmini e">
+                <div class="cmini-plate">
+                  <i></i><i></i><i></i><i></i>
+                  <i></i><i></i><i></i><i></i>
+                </div>
+              </div>
+            </div>
+            <p class="compare-eyebrow">대량검사</p>
+            <h3>STANDARD E</h3>
+            <p class="compare-tag">ELISA · 효소면역측정</p>
+            <ul class="compare-spec">
+              <li><b>검사 시간</b><span>2 ~ 4시간</span></li>
+              <li><b>처리량</b><span>96 well / plate</span></li>
+              <li><b>적합 환경</b><span>중앙검사실 · 연구소</span></li>
+              <li><b>대표 메뉴</b><span>감염 · 알러지 · 자가면역</span></li>
+            </ul>
+            <a href="product/e.html" class="link link-blue">자세히 ›</a>
+          </article>
+
+        </div>
+      </div>
+
+      <p class="compare-help">
+        모델 선택이 어려우신가요? <a href="#contact" class="link link-blue">전문가 상담 받기 ›</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Tech section -->
+  <section class="tech" id="tech">
+    <div class="tech-inner">
+      <p class="eyebrow center">기술</p>
+      <h2 class="display">검사실의 정확도, 환자 곁의 속도.</h2>
+
+      <div class="tech-grid">
+        <div class="tech-card">
+          <div class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 3v8a7 7 0 0 0 14 0V3"/><path d="M3 21h18"/></svg>
+          </div>
+          <h3>All-in-One 카트리지</h3>
+          <p>핵산 추출부터 증폭·검출까지 하나의 카트리지에서 자동으로 진행됩니다.</p>
+        </div>
+        <div class="tech-card">
+          <div class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 3v9l5 3"/></svg>
+          </div>
+          <h3>유로피움 형광 검출</h3>
+          <p>큰 Stoke's shift의 유로피움 기반 형광 화학으로 고감도 정량 분석을 구현합니다.</p>
+        </div>
+        <div class="tech-card">
+          <div class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7 4v14M17 4v14M3 11h18"/></svg>
+          </div>
+          <h3>2D 바코드 무코딩</h3>
+          <p>스트립 인식·로트·유효기간을 자동으로 인식해 별도 코딩 작업이 필요 없습니다.</p>
+        </div>
+        <div class="tech-card">
+          <div class="tech-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="6" width="16" height="12" rx="2"/><path d="M8 6V4M16 6V4M4 11h16"/></svg>
+          </div>
+          <h3>HL7 · LIS / HIS 연동</h3>
+          <p>병원 EMR · 검사 정보시스템과 표준 프로토콜로 즉시 연동됩니다.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- For professionals -->
+  <section class="pro" id="support">
+    <div class="pro-inner">
+      <div class="pro-text">
+        <p class="eyebrow">의료 전문가를 위해</p>
+        <h2>STANDARD for Clinics.</h2>
+        <p>1차 의료기관부터 상급종합병원, 검사센터까지. 검사실 워크플로우와 EMR에 완벽하게 통합되는 SD BIOSENSOR의 진단 플랫폼.</p>
+        <a href="#contact" class="btn-primary">상담 신청하기</a>
+      </div>
+      <ul class="pro-bullets">
+        <li><span>01</span> 전국 무상 설치 · 정도관리</li>
+        <li><span>02</span> 24/7 임상기술 지원</li>
+        <li><span>03</span> 시약 · 카트리지 정기 자동 발주</li>
+        <li><span>04</span> 검사 데이터 통합 대시보드</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact / CTA -->
+  <section class="cta-band" id="contact">
+    <h2>현장 시연을 신청해 보세요.</h2>
+    <p>SD BIOSENSOR 전문 컨설턴트가 직접 방문 시연을 도와드립니다.</p>
+    <a href="mailto:contact@sdbiosensor.com" class="btn-primary btn-on-light">시연 신청 ›</a>
+  </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="foot" role="contentinfo">
+  <div class="foot-inner">
+    <p class="foot-note">
+      ※ 본 페이지에 게시된 제품 정보는 의료 전문가 대상 정보이며, 일부 제품은 국가별 인허가 상태가 다를 수 있습니다.
+      본 페이지는 SD BIOSENSOR의 공개된 제품 라인업(STANDARD M / F / Q / E / G)을 기반으로 제작된 디자인 컨셉 데모 페이지입니다.
+    </p>
+
+    <div class="foot-grid">
+      <div>
+        <h4>제품</h4>
+        <ul>
+          <li><a href="product/m10.html">STANDARD M10</a></li>
+          <li><a href="product/f2400.html">STANDARD F2400</a></li>
+          <li><a href="product/f200.html">STANDARD F200</a></li>
+          <li><a href="product/q.html">STANDARD Q</a></li>
+          <li><a href="product/g.html">STANDARD G</a></li>
+          <li><a href="product/e.html">STANDARD E</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>지원</h4>
+        <ul>
+          <li><a href="support.html#manual">사용 설명서</a></li>
+          <li><a href="support.html#qc">정도관리</a></li>
+          <li><a href="support.html#software">소프트웨어 업데이트</a></li>
+          <li><a href="support.html#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>도입 안내</h4>
+        <ul>
+          <li><a href="partners.html#clinic">의원 · 클리닉</a></li>
+          <li><a href="partners.html#hospital">병원 · 종합병원</a></li>
+          <li><a href="partners.html#lab">검사센터</a></li>
+          <li><a href="partners.html#global">해외 파트너</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>회사</h4>
+        <ul>
+          <li><a href="company.html#about">회사 소개</a></li>
+          <li><a href="company.html#news">뉴스룸</a></li>
+          <li><a href="company.html#careers">채용</a></li>
+          <li><a href="company.html#ir">투자정보</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <p>Copyright © 2026 SD BIOSENSOR Korea. All rights reserved.</p>
+      <ul>
+        <li><a href="legal.html#privacy">개인정보처리방침</a></li>
+        <li><a href="legal.html#terms">이용약관</a></li>
+        <li><a href="legal.html#notice">법적 고지</a></li>
+        <li><a href="sitemap.html">사이트맵</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/interactions.js"></script>
+</body>
+</html>

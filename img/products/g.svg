@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f5f5f7"/><stop offset="100%" stop-color="#e5e5ea"/></linearGradient>
+    <linearGradient id="body-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f5f5f7"/><stop offset="100%" stop-color="#c7c7cc"/></linearGradient>
+    <linearGradient id="screen-g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0f0f12"/><stop offset="100%" stop-color="#1d1d1f"/></linearGradient>
+    <linearGradient id="brand-g" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0a4d8c"/><stop offset="100%" stop-color="#00a3b4"/></linearGradient>
+    <radialGradient id="shadow-g" cx="0.5" cy="0.5" r="0.5"><stop offset="0%" stop-color="rgba(0,0,0,0.2)"/><stop offset="100%" stop-color="rgba(0,0,0,0)"/></radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg-g)"/>
+  <ellipse cx="400" cy="540" rx="180" ry="14" fill="url(#shadow-g)"/>
+
+  <!-- Glucose meter -->
+  <g transform="translate(290, 100)">
+    <rect x="0" y="0" width="220" height="380" rx="32" fill="url(#body-g)" stroke="#a1a1a6" stroke-width="1"/>
+    <!-- Top brand band -->
+    <rect x="40" y="22" width="140" height="6" rx="3" fill="url(#brand-g)"/>
+    <text x="40" y="50" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#1d1d1f" letter-spacing="2">SD BIOSENSOR</text>
+
+    <!-- Big screen -->
+    <rect x="20" y="70" width="180" height="180" rx="14" fill="url(#screen-g)"/>
+    <rect x="30" y="80" width="160" height="160" rx="8" fill="#0a0a0a"/>
+
+    <text x="44" y="106" font-family="Inter, sans-serif" font-size="9" fill="#a1a1a6" letter-spacing="1.5">2026.04.27 · 14:30</text>
+
+    <!-- Big glucose number -->
+    <text x="100" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="60" font-weight="600" fill="#34c759" letter-spacing="-2">112</text>
+    <text x="100" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#f5f5f7" font-weight="500">mg/dL</text>
+    <text x="100" y="220" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#a1a1a6" letter-spacing="1.5">POST-MEAL</text>
+
+    <!-- Strip slot -->
+    <rect x="60" y="270" width="100" height="14" rx="4" fill="#1d1d1f"/>
+    <rect x="80" y="262" width="60" height="20" rx="2" fill="#fff" stroke="#0a4d8c" stroke-width="1"/>
+    <rect x="92" y="270" width="36" height="6" fill="url(#brand-g)" opacity="0.6"/>
+
+    <!-- Buttons -->
+    <circle cx="60" cy="320" r="16" fill="#fff" stroke="#a1a1a6" stroke-width="1"/>
+    <circle cx="110" cy="328" r="22" fill="url(#brand-g)"/>
+    <circle cx="160" cy="320" r="16" fill="#fff" stroke="#a1a1a6" stroke-width="1"/>
+    <text x="60" y="324" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#6e6e73">‹</text>
+    <text x="160" y="324" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#6e6e73">›</text>
+    <text x="110" y="333" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#fff">OK</text>
+  </g>
+
+  <text x="400" y="555" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#6e6e73" letter-spacing="3">STANDARD G · BGMS</text>
+</svg>

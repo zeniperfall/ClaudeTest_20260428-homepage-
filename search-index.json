@@ -1,0 +1,171 @@
+{
+  "records": [
+    {
+      "url": "/index.html",
+      "title": "SD BIOSENSOR — POC 진단의 새로운 표준",
+      "desc": "STANDARD M, F, Q, E, G — 검사실 수준의 정확도를 환자 곁으로.",
+      "group": "홈",
+      "keywords": [
+        "메인",
+        "홈",
+        "STANDARD",
+        "POC",
+        "진단"
+      ]
+    },
+    {
+      "url": "/product/m10.html",
+      "title": "STANDARD M10 — POC 분자진단 시스템 · SD BIOSENSOR",
+      "desc": "STANDARD M10은 검체 투입에서 결과까지 30분 만에 검사실 수준의 PCR 결과를 제공하는 차세대 POC 분자진단 시스템입니다.",
+      "group": "제품 / STANDARD M",
+      "keywords": [
+        "분자진단",
+        "PCR",
+        "M10",
+        "포렌식",
+        "POC",
+        "호흡기",
+        "STI",
+        "HPV",
+        "30분"
+      ]
+    },
+    {
+      "url": "/product/f2400.html",
+      "title": "STANDARD F2400 — 고처리량 형광 면역분석기 · SD BIOSENSOR",
+      "desc": "STANDARD F2400은 다중 검체 연속 처리가 가능한 고처리량 형광 면역분석 시스템입니다.",
+      "group": "제품 / STANDARD F",
+      "keywords": [
+        "F2400",
+        "면역분석",
+        "유로피움",
+        "고처리량",
+        "심혈관",
+        "내분비",
+        "종양표지자"
+      ]
+    },
+    {
+      "url": "/product/f200.html",
+      "title": "STANDARD F200 — 컴팩트 형광 면역분석기 · SD BIOSENSOR",
+      "desc": "STANDARD F200은 의원과 검진센터에 최적화된 컴팩트 데스크탑 형광 면역분석 시스템입니다.",
+      "group": "제품 / STANDARD F",
+      "keywords": [
+        "F200",
+        "면역분석",
+        "컴팩트",
+        "데스크탑",
+        "의원"
+      ]
+    },
+    {
+      "url": "/product/q.html",
+      "title": "STANDARD Q — 신속 면역크로마토 진단 · SD BIOSENSOR",
+      "desc": "STANDARD Q는 15분 이내 결과를 제공하는 신속 면역크로마토 진단 키트 라인업입니다.",
+      "group": "제품 / STANDARD Q",
+      "keywords": [
+        "STANDARD Q",
+        "신속진단",
+        "RDT",
+        "COVID",
+        "Influenza",
+        "Malaria",
+        "Dengue",
+        "면역크로마토"
+      ]
+    },
+    {
+      "url": "/product/g.html",
+      "title": "STANDARD G — 자가혈당측정 시스템 · SD BIOSENSOR",
+      "desc": "STANDARD G는 누구나 손쉽게 사용할 수 있도록 설계된 자가혈당측정(BGMS) 시스템입니다.",
+      "group": "제품 / STANDARD G",
+      "keywords": [
+        "STANDARD G",
+        "혈당",
+        "BGMS",
+        "GlucoNavii",
+        "당뇨"
+      ]
+    },
+    {
+      "url": "/product/e.html",
+      "title": "STANDARD E — ELISA 진단 시스템 · SD BIOSENSOR",
+      "desc": "STANDARD E는 96-well 플레이트 기반의 효소면역측정(ELISA) 진단 라인업입니다.",
+      "group": "제품 / STANDARD E",
+      "keywords": [
+        "STANDARD E",
+        "ELISA",
+        "효소면역",
+        "96-well"
+      ]
+    },
+    {
+      "url": "/company.html",
+      "title": "회사 소개 · 뉴스룸 · 채용 · 투자정보 — SD BIOSENSOR",
+      "desc": "SD BIOSENSOR의 회사 소개, 뉴스룸, 채용, 투자정보를 한 페이지에서 확인하세요.",
+      "group": "회사",
+      "keywords": [
+        "회사",
+        "소개",
+        "뉴스",
+        "채용",
+        "투자",
+        "IR",
+        "연혁",
+        "Suwon"
+      ]
+    },
+    {
+      "url": "/support.html",
+      "title": "지원 — 사용 설명서 · 정도관리 · 소프트웨어 · FAQ — SD BIOSENSOR",
+      "desc": "STANDARD 시리즈의 사용 설명서, 정도관리 가이드, 소프트웨어 업데이트, 자주 묻는 질문을 안내합니다.",
+      "group": "지원",
+      "keywords": [
+        "지원",
+        "FAQ",
+        "매뉴얼",
+        "정도관리",
+        "QC",
+        "다운로드",
+        "펌웨어",
+        "기술지원"
+      ]
+    },
+    {
+      "url": "/partners.html",
+      "title": "도입 안내 — 의원 · 병원 · 검사센터 · 해외 파트너 — SD BIOSENSOR",
+      "desc": "STANDARD 시리즈 도입을 검토 중인 의료기관과 파트너를 위한 안내 페이지입니다.",
+      "group": "도입 안내",
+      "keywords": [
+        "도입",
+        "파트너",
+        "의원",
+        "병원",
+        "검사센터",
+        "글로벌",
+        "디스트리뷰터"
+      ]
+    },
+    {
+      "url": "/legal.html",
+      "title": "법적 고지 — 개인정보처리방침 · 이용약관 — SD BIOSENSOR",
+      "desc": "개인정보처리방침, 이용약관, 법적 고지 사항을 안내합니다.",
+      "group": "법적 고지",
+      "keywords": [
+        "개인정보",
+        "이용약관",
+        "법적고지",
+        "정책"
+      ]
+    },
+    {
+      "url": "/sitemap.html",
+      "title": "사이트맵 — SD BIOSENSOR",
+      "desc": "SD BIOSENSOR 웹사이트의 전체 페이지 구조를 안내합니다.",
+      "group": "사이트맵",
+      "keywords": [
+        "사이트맵"
+      ]
+    }
+  ]
+}
